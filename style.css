@@ -1,4 +1,5 @@
 body{
+    background-color: hsl(0, 0%, 41%);
     margin: 0;
     padding: 0;
     display: inline-block
@@ -24,10 +25,14 @@ nav {
 
 
 .menu-text{
-    background-color: blue;
+    background-color: blanchedalmond;
     display: inline;
     justify-content: space-around;
     margin-left: 200px;
+    padding:10px 20px;
+}
+.menu-text li{
+    padding: 15px;
 }
 
 .auth-nav{
