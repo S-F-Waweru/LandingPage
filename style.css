@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: inline-block
+}
+ul{
+    list-style: none;
+    display: inline;
+}
+li{
+    display: inline;
+}
+nav {
+  background-color: blanchedalmond;
+  padding: 12px 64px;
+  display: block;
+}
+
+
+.nav-menu {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu-text{
+    background-color: blue;
+    display: inline;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.auth-nav{
+    float: right;
+}
+.auth-nav ul li{
+    padding:10px 20px;
+    border-radius: 8px;
+}
+.register-button{
+    border: 2px solid grey;
+    margin-left: 10px;
+}
+.landing{
+    background-color: bisque;
+   width: 100%;
+}
+.landing div{
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+}
+.landing-text{
+    padding-top:128px;
+}
+
+
+.landing-text p{
+    font-size: 24px;
+    padding: 24px;
+}
+
+.landing-image{
+    float: right;
+}
+
+.landing-image img{
+    height: 100vh;
+}
+.landing h1 {
+    font-size: 64px;
+    padding: 24px;
+}
+.CTA-button{
+    font-size: 24px;
+    border-style: none;
+    padding:18px 36px ;
+    margin-left: 24px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
